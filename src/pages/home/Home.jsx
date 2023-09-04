@@ -1,12 +1,12 @@
 import React from "react";
 import "./Home.css";
 import Header from "../../components/header/Header";
-// import Navbar from "../navbar/Navbar";
+import Navbar from "../../components/navbar/NavBar";
 
 const Home = (props) => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
 
       <main>

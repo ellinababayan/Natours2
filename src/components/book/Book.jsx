@@ -67,7 +67,14 @@ const Book = () => {
               </div>
 
               <div className="form__group">
-                <button className="btn btn--green"> Next step &rarr;</button>
+                <a
+                  href="https://www.booking.com/attractions/index.en-us.html?aid=2336990&label=en-us-booking-desktop-PjCmBdkGCLe1THLwCvMXbQS652804039586%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-538881796%3Alp9031140%3Ali%3Adec%3Adm&sid=dd5d007b2e1414500906e5f58e94fe56&"
+                  target="_blank"
+                  className="btn btn--green"
+                >
+                  {" "}
+                  Next step &rarr;
+                </a>
               </div>
             </form>
           </div>

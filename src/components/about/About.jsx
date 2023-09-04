@@ -32,7 +32,7 @@ const About = () => {
             adventure, pushing boundaries and opening doors to a world of new
             and unforgettable possibilities.
           </p>
-          <a href="#" className="btn-text">
+          <a href="#section-features" className="btn-text">
             Learn More &rarr;
           </a>
         </div>

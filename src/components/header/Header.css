@@ -1,0 +1,46 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.622),
+      rgba(40, 180, 133, 0.659)
+    ),
+    url(../../../public/img/first.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+@media (max-width: 56.25em) {
+  .header {
+    height: 65vh;
+    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
+  }
+}
+.header__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.header__logo {
+  height: 3.5rem;
+}
+.header__text-box {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  text-transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media (max-width: 56.25em) {
+  .header__text-box {
+    left: 26%;
+  }
+}
+@media (min-width: 112.5em) {
+  .header__text-box {
+    left: 24%;
+  }
+}

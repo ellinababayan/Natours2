@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
-// import Header from "../../components/header/Header";
+import Header from "../../components/header/Header";
 // import Navbar from "../navbar/Navbar";
 
 const Home = (props) => {
   return (
     <div>
-      {/* <Navbar />
-      <Header /> */}
+      {/* <Navbar /> */}
+      <Header />
 
       <main>
         <section class="section-about" id="section-about">

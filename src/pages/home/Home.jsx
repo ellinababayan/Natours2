@@ -6,6 +6,7 @@ import About from "../../components/about/About";
 import Features from "../../components/features/Features";
 import Tours from "../../components/tours/Tours";
 import Stories from "../../components/stories/Stories";
+import Book from "../../components/book/Book";
 
 const Home = (props) => {
   return (
@@ -18,139 +19,8 @@ const Home = (props) => {
         <Features />
         <Tours />
         <Stories />
-        {/* <section class="section-stories" id="section-stories">
-          <div class="bg-video">
-            <video class="bg-video__content" autoplay muted loop>
-              <source src="img/ocean.mp4" type="video/mp4" />
-              <source src="img/video.webm" type="video/webm" />
-              Video is not supported by browser
-            </video>
-          </div>
-
-          <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">We make people genuinely happy</h2>
-          </div>
-
-          <div class="row">
-            <div class="story">
-              <figure class="story__shape">
-                <img src="img/review3.jpg" alt="Person" class="story__img" />
-                <figcaption class="story__caption">Ted Todler</figcaption>
-              </figure>
-              <div class="story__text">
-                <h3 class="heading-tertiary u-margin-bottom-small">
-                  I had the best week with my family
-                </h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  voluptatum ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aut voluptatum maiores, illum vel non minus. Fugit, quidem!
-                  Soluta adipisci suscipit aspernatur hic, velit, minima
-                  corrupti vero tenetur dolore, facilis accusantium?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="story">
-              <figure class="story__shape">
-                <img src="img/review2.jpg" alt="Person" class="story__img" />
-                <figcaption class="story__caption">John Smith</figcaption>
-              </figure>
-              <div class="story__text">
-                <h3 class="heading-tertiary u-margin-bottom-small">
-                  Wow! My life is completely different now
-                </h3>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  voluptatum ipsum dolor, sit amet consectetur adipisicing elit.
-                  Aut voluptatum maiores, illum vel non minus. Fugit, quidem!
-                  Soluta adipisci suscipit aspernatur hic, velit, minima
-                  corrupti vero tenetur dolore, facilis accusantium?
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="u-center-text u-margin-top-small">
-            <a href="#" class="btn-text">
-              Read more stories &rarr;
-            </a>
-          </div>
-        </section> */}
-
-        <section class="section-book" id="section-book">
-          <div class="row">
-            <div class="book">
-              <div class="book__form">
-                <form action="#" class="form">
-                  <div class="u-margin-bottom-medium">
-                    <h2 class="heading-secondary">Start booking now</h2>
-                  </div>
-
-                  <div class="form__group">
-                    <input
-                      type="text"
-                      class="form__input"
-                      placeholder="Full Name"
-                      id="name"
-                      required
-                    />
-                    <label for="name" class="form__label">
-                      Full Name
-                    </label>
-                  </div>
-
-                  <div class="form__group">
-                    <input
-                      type="email"
-                      class="form__input"
-                      placeholder="Email Address"
-                      id="email"
-                      required
-                    />
-                    <label for="email" class="form__label">
-                      Email Address
-                    </label>
-                  </div>
-
-                  <div class="form__group u-margin-bottom-medium">
-                    <div class="form__radio-group">
-                      <input
-                        type="radio"
-                        class="form__radio-input"
-                        id="small"
-                        name="size"
-                      />
-                      <label for="small" class="form__radio-label">
-                        <span class="form__radio-button"></span>
-                        Small tour group
-                      </label>
-                    </div>
-
-                    <div class="form__radio-group">
-                      <input
-                        type="radio"
-                        class="form__radio-input"
-                        id="large"
-                        name="size"
-                      />
-                      <label for="large" class="form__radio-label">
-                        <span class="form__radio-button"></span>
-                        Large tour group
-                      </label>
-                    </div>
-                  </div>
-
-                  <div class="form__group">
-                    <button class="btn btn--green"> Next step &rarr;</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Book />
+       
       </main>
 
       <footer class="footer">

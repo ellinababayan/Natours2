@@ -3,71 +3,71 @@ import "./Book.css";
 
 const Book = () => {
   return (
-    <section class="section-book" id="section-book">
-      <div class="row">
-        <div class="book">
-          <div class="book__form">
-            <form action="#" class="form">
-              <div class="u-margin-bottom-medium">
-                <h2 class="heading-secondary">Start booking now</h2>
+    <section className="section-book" id="section-book">
+      <div className="row">
+        <div className="book">
+          <div className="book__form">
+            <form action="#" className="form">
+              <div className="u-margin-bottom-medium">
+                <h2 className="heading-secondary">Start booking now</h2>
               </div>
 
-              <div class="form__group">
+              <div className="form__group">
                 <input
                   type="text"
-                  class="form__input"
+                  className="form__input"
                   placeholder="Full Name"
                   id="name"
                   required
                 />
-                <label for="name" class="form__label">
+                <label htmlFor="name" className="form__label">
                   Full Name
                 </label>
               </div>
 
-              <div class="form__group">
+              <div className="form__group">
                 <input
                   type="email"
-                  class="form__input"
+                  className="form__input"
                   placeholder="Email Address"
                   id="email"
                   required
                 />
-                <label for="email" class="form__label">
+                <label htmlFor="email" className="form__label">
                   Email Address
                 </label>
               </div>
 
-              <div class="form__group u-margin-bottom-medium">
-                <div class="form__radio-group">
+              <div className="form__group u-margin-bottom-medium">
+                <div className="form__radio-group">
                   <input
                     type="radio"
-                    class="form__radio-input"
+                    className="form__radio-input"
                     id="small"
                     name="size"
                   />
-                  <label for="small" class="form__radio-label">
-                    <span class="form__radio-button"></span>
+                  <label htmlFor="small" className="form__radio-label">
+                    <span className="form__radio-button"></span>
                     Small tour group
                   </label>
                 </div>
 
-                <div class="form__radio-group">
+                <div className="form__radio-group">
                   <input
                     type="radio"
-                    class="form__radio-input"
+                    className="form__radio-input"
                     id="large"
                     name="size"
                   />
-                  <label for="large" class="form__radio-label">
-                    <span class="form__radio-button"></span>
+                  <label htmlFor="large" className="form__radio-label">
+                    <span className="form__radio-button"></span>
                     Large tour group
                   </label>
                 </div>
               </div>
 
-              <div class="form__group">
-                <button class="btn btn--green"> Next step &rarr;</button>
+              <div className="form__group">
+                <button className="btn btn--green"> Next step &rarr;</button>
               </div>
             </form>
           </div>

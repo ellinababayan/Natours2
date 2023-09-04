@@ -3,23 +3,23 @@ import "./Popup.css";
 
 const Popup = () => {
   return (
-    <div class="popup" id="popup">
-      <div class="popup__content">
-        <div class="popup__left">
-          <img src="img/review1.jpg" alt="Tour photo" class="popup__img" />
-          <img src="img/review2.jpg" alt="Tour photo" class="popup__img" />
+    <div className="popup" id="popup">
+      <div className="popup__content">
+        <div className="popup__left">
+          <img src="img/review1.jpg" alt="Tour photo" className="popup__img" />
+          <img src="img/review2.jpg" alt="Tour photo" className="popup__img" />
         </div>
-        <div class="popup__right">
-          <a href="#section-tours" class="popup__close">
+        <div className="popup__right">
+          <a href="#section-tours" className="popup__close">
             &times;
           </a>
-          <h2 class="heading-secondary u-margin-bottom-small">
+          <h2 className="heading-secondary u-margin-bottom-small">
             Start booking now
           </h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">
+          <h3 className="heading-tertiary u-margin-bottom-small">
             Important &ndash; Read the terms before booking
           </h3>
-          <p class="popup__text">
+          <p className="popup__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -28,7 +28,7 @@ const Popup = () => {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <a href="#section-book" class="btn btn--green">
+          <a href="#section-book" className="btn btn--green">
             Book now
           </a>
         </div>

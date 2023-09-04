@@ -9,6 +9,7 @@ import Stories from "../../components/stories/Stories";
 import Book from "../../components/book/Book";
 import Footer from "../../components/footer/Footer";
 import Popup from "../../components/popup/Popup";
+import Contact from "../../components/contact/Contact";
 
 const Home = (props) => {
   return (
@@ -25,6 +26,7 @@ const Home = (props) => {
       </main>
       <Footer />
       <Popup />
+      <Contact />
     </div>
   );
 };

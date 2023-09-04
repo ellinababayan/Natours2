@@ -3,7 +3,7 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer__logo-box">
         <picture className="footer__logo">
           <source
@@ -22,21 +22,21 @@ const Footer = () => {
           <div className="footer__navigation">
             <ul className="footer__list">
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#section-about" className="footer__link">
                   Company
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#contact" className="footer__link">
                   Contact
                 </a>
               </li>
               
-              <li className="footer__item">
+              {/* <li className="footer__item">
                 <a href="" className="footer__link">
                   Privacy policy
                 </a>
-              </li>
+              </li> */}
               <li className="footer__item">
                 <a href="#popup" className="footer__link">
                   Terms

@@ -5,6 +5,7 @@ import Navbar from "../../components/navbar/NavBar";
 import About from "../../components/about/About";
 import Features from "../../components/features/Features";
 import Tours from "../../components/tours/Tours";
+import Stories from "../../components/stories/Stories";
 
 const Home = (props) => {
   return (
@@ -16,8 +17,8 @@ const Home = (props) => {
         <About />
         <Features />
         <Tours />
-
-        <section class="section-stories" id="section-stories">
+        <Stories />
+        {/* <section class="section-stories" id="section-stories">
           <div class="bg-video">
             <video class="bg-video__content" autoplay muted loop>
               <source src="img/ocean.mp4" type="video/mp4" />
@@ -77,7 +78,7 @@ const Home = (props) => {
               Read more stories &rarr;
             </a>
           </div>
-        </section>
+        </section> */}
 
         <section class="section-book" id="section-book">
           <div class="row">

@@ -27,11 +27,11 @@ const Stories = () => {
               I had the best week with my family
             </h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum maiores, illum vel non minus. Fugit, quidem! Soluta
-              adipisci suscipit aspernatur hic, velit, minima corrupti vero
-              tenetur dolore, facilis accusantium?
+              My family and I had the best week together. We were surrounded by
+              breathtaking scenery, and the accommodations were top-notch. The
+              whole experience left me speechless. I can't thank the staff
+              enough for making our stay so memorable. We'll cherish these
+              moments forever.
             </p>
           </div>
         </div>
@@ -48,11 +48,10 @@ const Stories = () => {
               Wow! My life is completely different now
             </h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum maiores, illum vel non minus. Fugit, quidem! Soluta
-              adipisci suscipit aspernatur hic, velit, minima corrupti vero
-              tenetur dolore, facilis accusantium?
+              My recent vacation with my family was an absolute dream. I can't
+              express how much joy and relaxation it brought us. From the
+              delicious food to the incredible activities, every moment was pure
+              bliss. We'll definitely be returning soon!
             </p>
           </div>
         </div>

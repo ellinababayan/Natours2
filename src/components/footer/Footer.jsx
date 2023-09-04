@@ -31,18 +31,14 @@ const Footer = () => {
                   Contact
                 </a>
               </li>
-              <li className="footer__item">
-                <a href="" className="footer__link">
-                  Carrers
-                </a>
-              </li>
+              
               <li className="footer__item">
                 <a href="" className="footer__link">
                   Privacy policy
                 </a>
               </li>
               <li className="footer__item">
-                <a href="" className="footer__link">
+                <a href="#popup" className="footer__link">
                   Terms
                 </a>
               </li>

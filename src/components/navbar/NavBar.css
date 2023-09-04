@@ -99,7 +99,7 @@
 .navigation__icon::after {
   content: "";
   position: absolute;
-  left: 0;
+  left: -0.05rem;
   transition: all 0.1s;
 }
 .navigation__icon::before {

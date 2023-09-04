@@ -20,13 +20,13 @@ const Popup = () => {
             Important &ndash; Read the terms before booking
           </h3>
           <p className="popup__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            By proceeding with your booking, you agree to abide by our terms and
+            conditions, which include cancellation policies, check-in/check-out
+            times, and any other guidelines relevant to your reservation. Please
+            review these terms carefully before confirming your booking. We are
+            committed to providing a safe and enjoyable experience for all our
+            guests, and compliance with our terms is essential. Thank you for
+            choosing our services, and we look forward to hosting you.
           </p>
           <a href="#section-book" className="btn btn--green">
             Book now

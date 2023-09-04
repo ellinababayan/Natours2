@@ -1,6 +1,6 @@
 import React from "react";
 import "./Features.css";
-import "./icon-font.css"
+import "./icon-font.css";
 
 const Features = () => {
   return (
@@ -13,18 +13,20 @@ const Features = () => {
               Explore the world
             </h3>
             <p className="feature-box__text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum
+              Embark on a journey to discover the beauty of diverse cultures and
+              breathtaking landscapes.
             </p>
           </div>
         </div>
         <div className="col-1-of-4">
           <div className="feature-box">
             <i className="feature-box__icon icon-basic-compass"></i>
-            <h3 className="heading-tertiary u-margin-bottom-small">Meet Nature</h3>
+            <h3 className="heading-tertiary u-margin-bottom-small">
+              Meet Nature
+            </h3>
             <p className="feature-box__text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum
+              Connect with the serenity of nature, as you encounter lush
+              forests, mountains, and lakes.
             </p>
           </div>
         </div>
@@ -35,8 +37,8 @@ const Features = () => {
               Find your way
             </h3>
             <p className="feature-box__text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum
+              Navigate the twists and turns of life's path, and uncover your
+              true purpose and direction.
             </p>
           </div>
         </div>
@@ -47,8 +49,8 @@ const Features = () => {
               Live a helthier life
             </h3>
             <p className="feature-box__text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              voluptatum
+              Prioritize your well-being by making choices in nutrition,
+              paving the way to a healthier and happier life.
             </p>
           </div>
         </div>

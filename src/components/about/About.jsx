@@ -1,11 +1,13 @@
 import React from "react";
-import "./About.css"
+import "./About.css";
 
 const About = () => {
   return (
     <section className="section-about" id="section-about">
       <div className="u-center-text u-margin-bottom-big">
-        <h2 className="heading-secondary">Exciting tours for adventurous people</h2>
+        <h2 className="heading-secondary">
+          Exciting tours for adventurous people
+        </h2>
       </div>
 
       <div className="row">
@@ -14,20 +16,21 @@ const About = () => {
             You`re going to fall in love with nature
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-            voluptatum maiores, illum vel non minus. Fugit, quidem! Soluta
-            adipisci suscipit aspernatur hic, velit, minima corrupti vero
-            tenetur dolore, facilis accusantium?
+            Prepare to be captivated by the wonders of nature as you immerse
+            yourself in its beauty and tranquility. Immerse yourself in the
+            wonders of the natural world, and let its beauty and tranquility
+            captivate your soul like never before.
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">
             Live adventures like you never have before
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-            voluptatum maiores, illum vel non minus. Fugit, quidem! Soluta
-            adipisci suscipit aspernatur hic, velit, minima corrupti vero
-            tenetur dolore, facilis accusantium?
+            Embrace thrilling experiences that will push your boundaries and
+            open doors to new and unforgettable adventures. Embark on a journey
+            filled with thrilling experiences that will redefine your sense of
+            adventure, pushing boundaries and opening doors to a world of new
+            and unforgettable possibilities.
           </p>
           <a href="#" className="btn-text">
             Learn More &rarr;

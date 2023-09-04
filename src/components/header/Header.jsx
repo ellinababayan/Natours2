@@ -5,7 +5,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__logo-box">
-        <img src="img/logo.gif" alt="Logo" className="header__logo" />
+        <img
+          src="https://play-lh.googleusercontent.com/ncxH6mV7vMPgTpZvr0C9WOWRE83zOrcLdQPdvc0LYBJAmE3I9DIgKPpaGr3Cl_n50D1F=w240-h480-rw"
+          alt="Logo"
+          className="header__logo"
+        />
       </div>
       <div className="header__text-box">
         <h1 className="heading-primary">

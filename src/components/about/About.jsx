@@ -2,6 +2,14 @@ import React from "react";
 import "./About.css";
 
 const About = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <section className="section-about" id="section-about">
       <div className="u-center-text u-margin-bottom-big">
@@ -32,7 +40,13 @@ const About = () => {
             adventure, pushing boundaries and opening doors to a world of new
             and unforgettable possibilities.
           </p>
-          <a href="#section-features" className="btn-text">
+          <a
+            onClick={(e) => {
+              e.preventDefault();
+              scrollToSection("section-features");
+            }}
+            className="btn-text"
+          >
             Learn More &rarr;
           </a>
         </div>

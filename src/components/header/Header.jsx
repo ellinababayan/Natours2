@@ -2,6 +2,14 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <header className="header">
       <div className="header__logo-box">
@@ -17,7 +25,13 @@ const Header = () => {
           <span className="heading-primary--sub">is where life happens</span>
         </h1>
 
-        <a href="#section-tours" className="btn btn--white btn--animated">
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("section-tours");
+          }}
+          className="btn btn--white btn--animated"
+        >
           Discover our tours
         </a>
       </div>

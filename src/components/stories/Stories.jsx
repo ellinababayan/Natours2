@@ -2,6 +2,14 @@ import React from "react";
 import "./Stories.css";
 
 const Stories = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <section className="section-stories" id="section-stories">
       <div className="bg-video">
@@ -58,8 +66,14 @@ const Stories = () => {
       </div>
 
       <div className="u-center-text u-margin-top-small">
-        <a href="#" className="btn-text">
-          Read more stories &rarr;
+        <a
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToSection("section-book");
+          }}
+          className="btn-text"
+        >
+          Book Now &rarr;
         </a>
       </div>
     </section>

@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Natours
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Natours is a tour booking web site 
+### This is a second version of Natours web application
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+  
+## Introduction
+Welcome to our website! This readme file provides an overview of our website and how to get started with it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+Our website offers the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Browse Content: Browse a wide range of content, including articles, videos, and images.
+2. Responsive Design: The website is designed to work seamlessly on desktop and mobile devices.
+3. Navigation Menus and Breadcrumbs: Intuitive menus for easy navigation, breadcrumbs for users to track their location within the website
+4. Sitemap for Easier Navigation: A sitemap providing an overview of website structure and content for users
+5. Media Galleries and Sliders: Galleries for showcasing images or multimedia content
+6. Contact Forms and Customer Support: Customer support options, including contact information and response channels
+7. Terms of Service and Privacy Policy: Privacy policy outlining data handling and user privacy practices
 
-### `npm test`
+## Installation
+To run our website locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the Repository: Clone this repository to your local machine using git clone.
 
-### `npm run build`
+bash
+Copy code
+`git clone https://github.com/ellinababayan/Natours2.git`
+Install Dependencies: Navigate to the project directory and install the required dependencies.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+`cd your-repo-directory`
+`npm install`
+Environment Variables: Create a .env file in the project root and set the necessary environment variables. Refer to the .env.example file for the required variables.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Database Setup: Set up a database system (e.g., MySQL, PostgreSQL, MongoDB) and configure the database connection in the .env file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the Server: Run the development server.
 
-### `npm run eject`
+bash
+Copy code
+`npm run start`
+Access the Website: Open a web browser and navigate to http://localhost:3000 to access the website.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
+Our website is designed to be intuitive and user-friendly. Here are some common tasks:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you'd like to rise the issue to the development of this website, please follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigate to Issue tab
+Press "Create a new issue"
+Describe the issue you noticed
+We will review and consider every issue
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the Mozilla Public License 2.0.

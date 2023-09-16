@@ -16,6 +16,12 @@
 ## Introduction
 Welcome to our website! This readme file provides an overview of our website and how to get started with it.
 
+
+
+https://github.com/ellinababayan/Natours2/assets/128013006/b63314a1-6506-4919-ba68-7e67eac168dc
+
+
+
 ## Features
 Our website offers the following features:
 

@@ -59,14 +59,17 @@ Copy code
 Access the Website: Open a web browser and navigate to http://localhost:3000 to access the website.
 
 ## Usage
-Our website is designed to be intuitive and user-friendly. Here are some common tasks:
+Our website is designed to be intuitive and user-friendly.
+Explore different categories and use the search bar to find specific content.
+
+## Contributing
 
 If you'd like to rise the issue to the development of this website, please follow these steps:
 
-Navigate to Issue tab
-Press "Create a new issue"
-Describe the issue you noticed
-We will review and consider every issue
+1. Navigate to Issue tab
+2. Press "Create a new issue"
+3. Describe the issue you noticed
+4. We'll review your issue and consider it if it aligns with our project's goals.
 
 ## License
 This project is licensed under the Mozilla Public License 2.0.

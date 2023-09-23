@@ -33,7 +33,7 @@ const About = () => {
           <h3 className="heading-tertiary u-margin-bottom-small">
             Live adventures like you never have before
           </h3>
-          <p className="paragraph">
+          <p className="paragraph paragraph-last">
             Embrace thrilling experiences that will push your boundaries and
             open doors to new and unforgettable adventures. Embark on a journey
             filled with thrilling experiences that will redefine your sense of

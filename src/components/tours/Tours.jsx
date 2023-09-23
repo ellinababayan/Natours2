@@ -8,7 +8,7 @@ const Tours = () => {
         <h2 className="heading-secondary">Most popular tours</h2>
       </div>
 
-      <div className="row">
+      <div className="row row-tours">
         <div className="col-1-of-3">
           <div className="card">
             <div className="card__side card__side--front">

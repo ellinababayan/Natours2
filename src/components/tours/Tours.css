@@ -130,3 +130,13 @@
   font-size: 6rem;
   font-weight: 100;
 }
+@media only screen and (max-width: 56.5em) {
+  .row-tours {
+    margin-left: 10rem
+  }
+}
+@media only screen and (max-width: 700px) {
+  .row-tours {
+  margin-left: -6rem;
+}
+}

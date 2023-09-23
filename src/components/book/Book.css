@@ -38,6 +38,7 @@
       ),
       url(../../../public/img/review1.jpg);
     background-size: cover;
+    height: 70rem;
   }
 }
 .book__form {

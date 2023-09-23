@@ -25,6 +25,7 @@
       ),
       url(../../../public/img/review1.jpg);
     background-size: cover;
+    height: 60rem;
   }
 }
 @media (max-width: 37.5em) {

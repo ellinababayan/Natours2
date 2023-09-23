@@ -49,8 +49,8 @@ const Features = () => {
               Live a helthier life
             </h3>
             <p className="feature-box__text">
-              Prioritize your well-being by making choices in nutrition,
-              paving the way to a healthier and happier life.
+              Prioritize your well-being by making choices in nutrition, paving
+              the way to a happier life.
             </p>
           </div>
         </div>
